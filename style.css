@@ -1,0 +1,1003 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrap{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+#header{
+    height: 50px;
+    background-color: #383838;
+    color: white;
+}
+
+.pH{
+    background-color: #7B2E00;
+    padding: 8px 30px;
+    line-height: 20px;
+    color: white;
+    width: 50px;
+    height: 20px;
+    margin-left: 25px;
+}
+
+.pH a{
+    text-decoration: none;
+    color: white;
+}
+
+.pH:hover{
+    background-color: red;
+}
+
+#logo{
+    float: left;
+}
+
+#icons{
+    float: left;
+    line-height: 50px;
+    margin-left: 572px;
+    color: white;
+}
+
+#icons a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.fa-google{
+    margin: 0 10px;
+}
+.fa-google:hover{
+    color: #3cba54;
+}
+
+.fa-facebook-f{
+    margin: 0 10px;
+}
+.fa-facebook-f:hover{
+   color: #3B5998 ;
+}
+
+.fa-linkedin-in{
+    margin: 0 10px;
+}
+.fa-linkedin-in:hover{
+    color: #0077B5;
+}
+.fa-pinterest-p{
+    margin: 0 10px;
+}
+.fa-pinterest-p:hover{
+    color: #BD081C;
+}
+.fa-twitter{
+    margin: 0 10px;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+
+.lor{
+    display: none;
+}
+
+#nav{
+    float: right;   
+}
+
+#nav p{
+    line-height: 17px;
+    font-size: 30px;
+    float: left;
+    padding-left: 40px;
+    color: #7B2E00;
+    font-weight: bold;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*height: 50px;
+    line-height: 50px;*/
+    
+}
+
+#nav ul li{
+    width: 120px;
+    text-align: center;
+    float: left;
+}
+
+#nav ul li a{
+    display: block;
+    height: 20px;
+    
+    padding: 15px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav ul li a:hover{
+    background: #7B2E00;
+}
+
+#nav ul li ul{
+    background-color:#5D5D5D;
+    float: right;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 10000;
+    width: 1200px;
+    height: 80px;
+    display: none; 
+}
+
+#nav ul li ul li{
+    float: right;
+    width: 120px;
+    text-align: center;
+    
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul li ul li a:hover{
+    background: none;
+    border-bottom: 5px solid #7B2E00;
+}
+
+#nav ul li ul li a{
+    height: 45px;
+    line-height: 45px;
+}
+
+.fa-bars{
+    font-size: 25px;
+}
+
+#slika{
+    background-image: url("img/StockSnap_7ULJ7GRFDB.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    display: block;
+    position:
+    clear: both;
+}
+
+#textS{
+    position: absolute;
+    top: 220px;
+    left: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.okvirS{
+    background-color: #7B2E00;
+    padding: 8px 10px;
+    line-height: 20px;
+    color: white;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+#main{
+    overflow: hidden;
+}
+
+#mainText{
+    width: 500px;
+    line-height: 35px;
+    margin-top: 84px;
+    margin-bottom: 150px;
+    float: left;
+}
+
+.line{
+    border-top: 2px solid #7B2E00;
+}
+
+
+.okvir{
+    background-color: #7B2E00;
+    padding: 8px 30px;
+    line-height: 20px;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+
+#mainS{
+    width: 400px;
+    float: right;
+    margin-left: 56px;
+}
+
+#mainS p{
+    height: 20px;
+    background-color: #7B2E00;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+#mainIcons{
+    clear: both;
+    height: 200px;
+    width: 1200px;
+}
+
+#likeM{
+    background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 26px 0 125px;
+    text-align: center;
+}
+
+#rateM{
+     background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 26px;
+    text-align: center;
+}
+
+#userM{
+     background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 26px;
+    text-align: center;
+}
+
+#paperM{
+     background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 0 0 26px;
+    text-align: center;
+}
+
+#like{
+    background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 26px 0 0;
+    text-align: center;
+}
+
+#rate{
+     background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 26px;
+    text-align: center;
+}
+
+#user{
+     background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 26px;
+    text-align: center;
+}
+
+#paper{
+     background-color: #EEEEEE;
+    float: left;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 0 0 26px;
+    text-align: center;
+}
+
+
+.fa-heart{
+    margin-top: 23px;
+    color: #7B2E00;
+}
+
+.fa-star{
+    margin-top: 23px;
+    color: #7B2E00;
+}
+
+.fa-user{
+    margin-top: 23px;
+    color: #7B2E00;
+}
+
+.fa-paper-plane{
+    margin-top: 23px;
+    color: #7B2E00;
+}
+
+
+
+.fa-phone{
+    margin-right: 20px;
+}
+
+#mainInfo{
+    text-align: center;
+}
+
+#mainInfo h2{
+    font-weight:900;
+}
+
+.infoline{
+    border-bottom: 2px solid #7B2E00;
+    width: 40px;
+    margin-left: 578px;
+}
+
+#wrapFooter{
+    
+    margin: 0 auto;
+}
+
+#statistika{
+
+    height: 250px;
+    background-color: #5D5D5D;
+    margin-top: 70px;
+    
+}
+
+#iconsI{
+    width: 956px;
+    margin: 0 auto;
+}
+
+#statistika #like{
+    background: none;
+    margin-top: 35px;
+    color: white;
+}
+
+#statistika #rate{
+    background: none;
+    margin-top: 35px;
+    color: white;
+}
+#statistika #user{
+    background: none;
+    margin-top: 35px;
+    color: white;
+}
+#statistika #paper{
+    background: none;
+    margin-top: 35px;
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#infoF{
+    width: 956px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.fa-phone{
+    color: #DBDBDB;
+}
+
+#statistika .fa-heart{
+    color: white;
+}
+
+#statistika .fa-star{
+    color: white;
+}
+
+#statistika .fa-user{
+    color: white;
+}
+
+#statistika .fa-paper-plane{
+    color: white;
+}
+
+#infoF h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#footer{
+    
+    height: 50px;
+    margin: 0 auto;
+    background-color: #0F0F0F;
+    text-align: center;
+    color: grey;
+}
+
+#footer p{
+    line-height: 50px
+}
+
+/*    --------RESPONSIVE--------*/
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .wrap{
+        width: 960px;
+    }
+    #nav ul li ul{
+    width:  960px;
+}
+    #icons{
+    margin-left: 332px;
+}
+    #mainIcons{
+    clear: both;
+    height: 200px;
+    width: 960px;
+}
+    #likeM{
+    margin: 0 26px 0 0;
+}
+
+    #rateM{
+    margin: 0 27px;
+}
+
+    #userM{
+    margin: 0 27px;
+}
+
+    #paperM{
+    margin: 0 0 0 26px;
+}
+    .infoline{
+    margin-left: 48%;
+}
+        
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .wrap{
+        width: 720px;
+    }
+    #nav ul li ul{
+    width:  720px;
+}
+    #icons{
+    margin-left: 92px;
+}
+    #nav p{
+    line-height: 35px;
+    font-size: 20px;
+    float: left;
+    padding-left: 20px;
+}
+    #mainText{
+    width: 320px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+    #mainS{
+    width: 400px;
+    margin-left: 0;
+    float: right;  
+    margin-bottom: 70px;    
+}
+     #mainIcons{
+    clear: both;
+    height: 200px;
+    width: 720px;
+}
+    #likeM{
+    margin: 0 40px 50px 140px;
+}
+
+    #rateM{
+    margin: 0 140px 50px 0 ;
+}
+
+    #userM{
+    margin: 0 40px 50px 140px;
+}
+
+    #paperM{
+    margin: 0 140px 0 0;
+}
+    #mainInfo{
+    text-align: center;
+    margin-top: 150px;    
+}
+       .infoline{
+    margin-left: 48%;
+}
+    #statistika{
+    height: 500px;
+}
+    
+    #iconsI{
+    width: 720px;
+}
+
+    #statistika #like{
+    margin: 50px 20px 0 130px;
+}
+
+#statistika #rate{
+    margin-top: 50px;
+
+}
+#statistika #user{
+    margin: 60px 20px 0px 130px;
+}
+#statistika #paper{
+   margin-top: 60px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#infoF{
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .wrap{
+        width: 540px;
+    }
+    #header{
+        height: 150px;
+    }
+    
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+       .lor{
+        display: inline-block;
+        font-size: 25px;
+        line-height: 26px;
+        float: right;
+    }
+    
+    .fa-bars{
+    float: left;
+}
+    
+    #nav{
+        float: left;
+        width: 100%;
+        border: 1px solid white;
+        padding-bottom: 2px;
+        margin-top: 15px;
+    }
+    #nav p{
+    display: none;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+#nav ul li{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#nav ul li a{
+    display: block;
+    height: 20px;
+    padding: 15px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#nav ul li ul{
+    border: 1px solid white;
+    background-color:rgba(0,0,0,0.50);
+    float: none;
+    position: absolute;
+    top: 122px;
+    width: 100%;
+    height: 380px;
+    display: none; 
+}
+
+#nav ul li ul li{
+    
+    width: 100%;
+    text-align: center;
+    display: block;
+    z-index: 1000;
+}
+
+#nav ul li:hover ul{
+    display:none;
+}
+
+#nav ul li ul li a:hover{
+    font-weight: 900;
+}
+
+#nav ul li ul li a{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+}
+    
+    #slika{
+    clear: both;
+    overflow: hidden;
+}
+
+#textS{
+    position: absolute;
+    top: 220px;
+    left: 0;
+    font-size: 20px;
+    color: black;
+}
+    
+    #icons{
+    width: 0;
+    display: none;
+}
+     #mainText{
+    width: 540px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+    #mainS{
+    width: 400px;
+    margin-left: 0;
+    float: left;  
+    margin-bottom: 70px;    
+}
+     #mainIcons{
+    clear: both;
+    height: 200px;
+    width: 540px;
+}
+    #likeM{
+    margin: 0 20px 50px 60px;
+}
+
+    #rateM{
+    margin: 0 60px 50px 0 ;
+}
+
+    #userM{
+    margin: 0 20px 50px 60px;
+}
+
+    #paperM{
+    margin: 0 60px 0 0;
+}
+    #mainInfo{
+    text-align: center;
+    margin-top: 150px;    
+}
+    .infoline{
+    margin-left: 48%;
+}
+    #statistika{
+    height: 500px;
+}
+    
+    #iconsI{
+    width: 720px;
+}
+
+    #statistika #like{
+    margin: 50px 20px 0 60px;
+}
+
+#statistika #rate{
+    margin-top: 50px;
+    margin-left: 0
+}
+#statistika #user{
+    margin: 110px 20px 0px 60px;
+}
+#statistika #paper{
+   margin-top: 110px;
+    margin-left: 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#infoF{
+    width: 540px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+    
+}
+
+@media screen and (max-width: 576px){
+    .wrap{
+        width: 80%;
+    }
+    
+  #header{
+        height: 200px;
+    }
+    
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .phLogo{
+        float: left;
+        margin: 10px 20px 10px 0;
+        width: 100%
+    }
+    
+ .pH{
+    background-color: #7B2E00;
+    padding: 8px 60px;
+    line-height: 20px;
+    color: white;
+    float:  left;
+    height: 20px;
+    width: 50px;
+    margin-left: 0;
+     margin-right: 0;
+     width: 104px;
+}
+    
+    .lor{
+        display: inline-block;
+        font-size: 25px;
+        line-height: 26px;
+        float: right;
+    }
+    
+    .fa-bars{
+    float: left;
+}
+
+    
+    #nav{
+        float: left;
+        width: 100%;
+        border: 1px solid white;
+        margin-top: 15px;
+    }
+    #nav p{
+    display: none;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+#nav ul li{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#nav ul li a{
+    display: block;
+    height: 26px;
+    padding: 15px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#nav ul li ul{
+    border: 1px solid white;
+    background-color:rgba(0,0,0,0.50);
+    float: none;
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    height: 380px;
+    display: noe; 
+}
+
+#nav ul li ul li{
+    
+    width: 100%;
+    text-align: center;
+    display: block;
+    z-index: 1000;
+}
+
+#nav ul li:hover ul{
+    display:none;
+}
+
+#nav ul li ul li a:hover{
+    font-weight: 900;
+}
+
+#nav ul li ul li a{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+}
+    
+    #icons{
+    width: 0;
+    display: none;
+}
+    
+    #textS{
+    top: 100px;
+}
+    
+      #mainText{
+    width: 80%;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+    #mainS{
+    width: 100%;
+    margin-bottom: 70px;    
+}
+    
+    #mainS img{
+        width: 100%;
+    }
+    
+     #mainIcons{
+    clear: both;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+    #likeM{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+    #rateM{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+    #userM{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+    #paperM{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+    #mainInfo{
+    text-align: center;
+    margin-top: 150px;    
+}
+    .infoline{
+    margin-left: 48%;
+}
+    #statistika{
+    height: 800px;
+}
+    
+    #iconsI{
+    width: 80%;
+}
+
+    #statistika #like{
+   width: 80%;
+    margin: 50px 0 50px 0;
+}
+
+#statistika #rate{
+    width: 80%;
+    margin: 0 0 50px 0;
+}
+#statistika #user{
+    width: 80%;
+    margin: 0 0 50px 0;
+}
+#statistika #paper{
+   width: 80%;
+    margin: 0 0 50px 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#infoF{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
